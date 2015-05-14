@@ -15,7 +15,7 @@
 
     <!-- start: CSS -->
     <link href="<?php echo Yii::app()->baseUrl; ?>/css/animate.min.css?ver=<?php echo $ver; ?>" rel="stylesheet">
-    <link href="<?php echo Yii::app()->baseUrl; ?>/css/bootstrap.min.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+    <link href="<?php echo Yii::app()->baseUrl; ?>/css/bootstrap.rtl.min.css?ver=<?php echo $ver; ?>" rel="stylesheet">
     <link href="<?php echo Yii::app()->baseUrl; ?>/css/datepicker.css?ver=<?php echo $ver; ?>" rel="stylesheet">
     <link href="<?php echo Yii::app()->baseUrl; ?>/css/style.css?ver=<?php echo $ver; ?>" rel="stylesheet">
     <link
@@ -38,7 +38,7 @@
 
     <!-- start: JavaScript -->
     <script type="text/javascript"
-            src="<?php echo Yii::app()->baseUrl; ?>/js/bootstrap.min.js?ver=<?php echo $ver; ?>"></script>
+            src="<?php echo Yii::app()->baseUrl; ?>/js/bootstrap.rtl.min.js?ver=<?php echo $ver; ?>"></script>
     <script type="text/javascript"
             src="<?php echo Yii::app()->baseUrl; ?>/js/ekko-lightbox-modified.js?ver=<?php echo $ver; ?>"></script>
     <script type="text/javascript"
