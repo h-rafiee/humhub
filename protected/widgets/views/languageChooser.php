@@ -1,7 +1,7 @@
-<div class="text text-center animated fadeIn">
+<div class="text text-center animated fadeIn" style="direction:rtl; display:none;">
 
     <?php echo Yii::t('base', "Choose language:"); ?> &nbsp;
-    <div class="langSwitcher">
+    <div class="langSwitcher" >
         <?php
         $form = $this->beginWidget('HActiveForm', array(
             'id' => 'choose-language-form',

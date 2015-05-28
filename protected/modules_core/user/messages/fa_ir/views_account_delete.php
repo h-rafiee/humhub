@@ -17,9 +17,9 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Delete</strong> account' => '',
-  'Are you sure, that you want to delete your account?<br />All your published content will be removed! ' => '',
-  'Delete account' => '',
-  'Enter your password to continue' => '',
-  'Sorry, as an owner of a workspace you are not able to delete your account!<br />Please assign another owner or delete them.' => '',
+  '<strong>Delete</strong> account' => '<strong>حذف</strong> حساب کاربری',
+  'Are you sure, that you want to delete your account?<br />All your published content will be removed! ' => 'از پاک کردن حساب خود مطمئن هستید?<br />تمامی محتوای شما پاک خواهد شد! ',
+  'Delete account' => 'حذف حساب کاربری',
+  'Enter your password to continue' => 'برای ادامه پسورد خود را وارد کنید',
+  'Sorry, as an owner of a workspace you are not able to delete your account!<br />Please assign another owner or delete them.' => 'به عنوان صاحب گروه نموی توانید حسابتان را حذف کنید!<br />لطفا صاحب گروه را عوض کنید یا آنها را کلا پاک کنید.',
 );

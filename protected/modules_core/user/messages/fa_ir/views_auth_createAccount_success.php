@@ -17,9 +17,9 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Your account</strong> has been successfully created!' => '',
-  'After activating your account by the administrator, you will receive a notification by email.' => '',
-  'Go to login page' => '',
-  'To log in with your new account, click the button below.' => '',
-  'back to home' => '',
+  '<strong>Your account</strong> has been successfully created!' => '<strong>حساب کاربری شما</strong> ایجاد شد!',
+  'After activating your account by the administrator, you will receive a notification by email.' => 'بعد از تایید حساب کاربری شما توسط مدیریت سامانه، ایمیمل جهت اعلان به شما ارسال خواهد شد.',
+  'Go to login page' => 'رفتن به صفحه ورود',
+  'To log in with your new account, click the button below.' => 'برای لاکین بر روی دکمه زیر کلیک کنید',
+  'back to home' => 'بازگشت به صفحه اصلی',
 );

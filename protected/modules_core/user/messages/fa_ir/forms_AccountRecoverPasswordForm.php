@@ -17,8 +17,8 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'E-Mail' => '',
-  'Password Recovery' => '',
-  'Password recovery is not possible on your account type!' => '',
-  '{attribute} "{value}" was not found!' => '',
+  'E-Mail' => 'ایمیل',
+  'Password Recovery' => 'بازیابی پسورد',
+  'Password recovery is not possible on your account type!' => 'امکان بازیابی پسورد برای اکانت شما وجود ندارد!',
+  '{attribute} "{value}" was not found!' => '{attribute} "{value}" پیدا نشد!',
 );

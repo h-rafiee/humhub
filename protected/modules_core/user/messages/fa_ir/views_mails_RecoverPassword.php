@@ -17,9 +17,9 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Password</strong> recovery' => '',
-  'Hello {displayName}' => '',
-  'If you don\'t use this link within 24 hours, it will expire.' => '',
-  'Please use the following link within the next day to reset your password.' => '',
-  'Reset Password' => '',
+  '<strong>Password</strong> recovery' => 'بازیابی <strong>پسورد</strong>',
+  'Hello {displayName}' => 'سلام {displayName}',
+  'If you don\'t use this link within 24 hours, it will expire.' => 'این لینک تا 24 ساعت معتبر است.',
+  'Please use the following link within the next day to reset your password.' => 'با استفاده از لینک میتوانید به پسورد خود را بروز کنید.',
+  'Reset Password' => 'نوسازی پسورد',
 );

@@ -17,8 +17,8 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Confirm</strong></strong> your new email address' => '',
-  'Confirm' => '',
-  'Hello' => '',
-  'You have requested to change your e-mail address.<br>Your new e-mail address is {newemail}.<br><br>To confirm your new e-mail address please click on the button below.' => '',
+  '<strong>Confirm</strong></strong> your new email address' => '<strong>تایید</strong></strong> ایمیل جدید شما',
+  'Confirm' => 'تایید',
+  'Hello' => 'سلام',
+  'You have requested to change your e-mail address.<br>Your new e-mail address is {newemail}.<br><br>To confirm your new e-mail address please click on the button below.' => 'شما برای تغییر ایمیل خود درخواست داده اید.<br>ایمیل جدید شما {newemail} می باشد.<br><br>باری تایید ایمیل جدید روی دکمه ی زیر کلیک کنید.',
 );

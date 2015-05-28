@@ -13,8 +13,18 @@
 	'id'=>'".$this->class2id($modelClass)."-form',
 	'enableAjaxValidation'=>false,
 )); ?>\n"; ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<?php
+         if(Yii::app()->language=="fa_ir"){
+    ?>
+        <p class="note">پر کردن فیلدهایی که * دارند الزامی است.</p>
+    <?php
+        }else{
+    ?>
+        <p class="note">Fields with <span class="required">*</span> are required.</p>
+    <?php    
+        }
+    ?>
+	
 
 	<?php echo "<?php echo \$form->errorSummary(\$model); ?>\n"; ?>
 

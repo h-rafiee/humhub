@@ -13,6 +13,6 @@ return array (
   'Updated by' => 'به‌روزرسانی‌شده توسط',
   'Visibility' => 'قابلیت مشاهده',
   'Website URL (optional)' => 'آدرس وب‌سایت (اختیاری)',
-  'You cannot create private visible spaces!' => 'شما نمی‌توانید انجمن‌های خصوصی قابل مشاهده ایجاد کنید!',
-  'You cannot create public visible spaces!' => 'شما نمی‌توانید انجمن‌های عمومی قابل مشاهده ایجاد کنید!',
+  'You cannot create private visible spaces!' => 'شما نمی‌توانید گروه‌های خصوصی قابل مشاهده ایجاد کنید!',
+  'You cannot create public visible spaces!' => 'شما نمی‌توانید گروه‌های عمومی قابل مشاهده ایجاد کنید!',
 );

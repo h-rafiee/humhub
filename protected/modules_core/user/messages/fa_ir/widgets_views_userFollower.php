@@ -17,6 +17,6 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Following</strong> user' => '',
-  '<strong>User</strong> followers' => '',
+  '<strong>Following</strong> user' => 'کاربران <strong>دنبال شده</strong>',
+  '<strong>User</strong> followers' => 'کاربران <strong>دنبال کننده</strong>',
 );

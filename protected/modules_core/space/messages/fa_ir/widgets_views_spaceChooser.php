@@ -1,6 +1,6 @@
 <?php
 return array (
-  'Create new space' => '',
-  'My spaces' => 'انجمن‌های من',
+  'Create new space' => 'ایجاد گروه',
+  'My spaces' => 'گروه های من',
   'Search' => 'جستجو',
 );

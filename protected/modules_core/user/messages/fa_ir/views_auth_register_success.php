@@ -17,7 +17,7 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Registration</strong> successful!' => '',
-  'Please check your email and follow the instructions!' => '',
-  'back to home' => '',
+  '<strong>Registration</strong> successful!' => '<strong>ثبت نام</strong> انجام شد!',
+  'Please check your email and follow the instructions!' => 'لطفا ایمیل خود را بررسی و دستور العمل را دنبال کنید!',
+  'back to home' => 'بازگشت به صفحه اصلی',
 );

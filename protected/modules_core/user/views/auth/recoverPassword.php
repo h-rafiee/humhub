@@ -6,7 +6,7 @@ $this->pageTitle = Yii::t('UserModule.views_auth_recoverPassword', '<strong>Pass
     <br>
 
     <div class="row">
-        <div id="password-recovery-form" class="panel panel-default animated bounceIn" style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
+        <div id="password-recovery-form" class="panel panel-default animated bounceIn" style="max-width: 300px; margin: 0 auto 20px; text-align: right;">
             <div class="panel-heading"><?php echo Yii::t('UserModule.views_auth_recoverPassword', '<strong>Password</strong> recovery'); ?></div>
             <div class="panel-body">
 

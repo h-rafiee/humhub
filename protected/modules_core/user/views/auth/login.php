@@ -19,7 +19,7 @@ $this->pageTitle = Yii::t('UserModule.views_auth_login', '<strong>Please</strong
     <br>
 
     <div class="panel panel-default animated bounceIn" id="login-form"
-         style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
+         style="max-width: 300px; margin: 0 auto 20px; text-align: right;">
 
         <div class="panel-heading"><?php echo Yii::t('UserModule.views_auth_login', '<strong>Please</strong> sign in'); ?></div>
 
@@ -75,7 +75,7 @@ $this->pageTitle = Yii::t('UserModule.views_auth_login', '<strong>Please</strong
     <?php if ($canRegister) : ?>
         <div id="register-form"
              class="panel panel-default animated bounceInLeft"
-             style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
+             style="max-width: 300px; margin: 0 auto 20px; text-align: right;">
 
             <div class="panel-heading"><?php echo Yii::t('UserModule.views_auth_login', '<strong>Sign</strong> up') ?></div>
 
@@ -109,6 +109,8 @@ $this->pageTitle = Yii::t('UserModule.views_auth_login', '<strong>Please</strong
     $(function() {
         // set cursor to login field
         $('#login_username').focus();
+       
+
     })
 
     // Shake panel after wrong validation

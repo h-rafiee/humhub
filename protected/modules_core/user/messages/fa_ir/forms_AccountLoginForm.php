@@ -17,11 +17,11 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Current password' => '',
-  'Incorrect username/email or password.' => '',
-  'New password' => '',
-  'New password confirm' => '',
-  'Remember me next time' => '',
-  'Your account has not been activated by our staff yet.' => '',
-  'Your account is suspended.' => '',
+  'Current password' => 'پسورد فعلی',
+  'Incorrect username/email or password.' => 'پسورد یا نام کاربری/ایمیل اشتباه است',
+  'New password' => 'پسورد جدید',
+  'New password confirm' => 'تایید پسورد جدید',
+  'Remember me next time' => 'مرا به خاطر بسپار',
+  'Your account has not been activated by our staff yet.' => 'حساب کاربری شما هنوز توسط مدیر سایت تایید نشده است.',
+  'Your account is suspended.' => 'حساب کاربری شما معلق شده است.',
 );

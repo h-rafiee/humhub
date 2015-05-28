@@ -15,8 +15,8 @@
 
     <!-- start: CSS -->
     <link href="<?php echo Yii::app()->baseUrl; ?>/css/animate.min.css?ver=<?php echo $ver; ?>" rel="stylesheet">
-    <link href="<?php echo Yii::app()->baseUrl; ?>/css/bootstrap.min.css?ver=<?php echo $ver; ?>" rel="stylesheet">
-    <link href="<?php echo Yii::app()->baseUrl; ?>/css/style.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+    <link href="<?php echo Yii::app()->baseUrl; ?>/css/bootstrap.rtl.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+    <link href="<?php echo Yii::app()->baseUrl; ?>/css/style.rtl.css?ver=<?php echo $ver; ?>" rel="stylesheet">
     <link
         href="<?php echo Yii::app()->baseUrl; ?>/resources/font-awesome/css/font-awesome.min.css?ver=<?php echo $ver; ?>"
         rel="stylesheet">
@@ -64,11 +64,10 @@
           href="<?php echo Yii::app()->baseUrl; ?>/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="<?php echo Yii::app()->baseUrl; ?>/ico/favicon.ico">
     <!-- end: Favicon and Touch Icons -->
-
-
 </head>
 
 <body class="login-container">
+
 
 <!-- start: show content (and check, if exists a sublayout -->
 <?php if (isset($this->subLayout) && $this->subLayout != "") : ?>

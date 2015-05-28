@@ -15,9 +15,31 @@
 
     <!-- start: CSS -->
     <link href="<?php echo Yii::app()->baseUrl; ?>/css/animate.min.css?ver=<?php echo $ver; ?>" rel="stylesheet">
-    <link href="<?php echo Yii::app()->baseUrl; ?>/css/bootstrap.rtl.css" rel="stylesheet">
+    <?php
+         if(Yii::app()->language=="fa_ir"){
+    ?>
+        <link href="<?php echo Yii::app()->baseUrl; ?>/css/bootstrap.rtl.css" rel="stylesheet">
+    <?php
+        }else{
+    ?>
+        <link href="<?php echo Yii::app()->baseUrl; ?>/css/bootstrap.min.css" rel="stylesheet">
+    <?php    
+        }
+    ?>
     <link href="<?php echo Yii::app()->baseUrl; ?>/css/datepicker.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+    
+    <?php
+        if(Yii::app()->language=="fa_ir"){
+    ?>
+
+    <link href="<?php echo Yii::app()->baseUrl; ?>/css/style.rtl.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+    <?php
+        }else{
+    ?>
     <link href="<?php echo Yii::app()->baseUrl; ?>/css/style.css?ver=<?php echo $ver; ?>" rel="stylesheet">
+    <?php
+        }
+    ?>
     <link
         href="<?php echo Yii::app()->baseUrl; ?>/resources/font-awesome/css/font-awesome.min.css?ver=<?php echo $ver; ?>"
         rel="stylesheet">
@@ -111,6 +133,7 @@
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/js/desktop-notify-min.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/js/desktop-notify-config.js"></script>
 <?php endif; ?>
+
 
 <!-- start: first top navigation bar -->
 <div id="topbar-first" class="topbar">

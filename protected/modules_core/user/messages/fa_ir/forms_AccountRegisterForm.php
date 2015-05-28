@@ -17,6 +17,6 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'E-Mail' => '',
-  'E-Mail is already in use! - Try forgot password.' => '',
+  'E-Mail' => 'ایمیل',
+  'E-Mail is already in use! - Try forgot password.' => 'ایمیل تکراری است! - پسورد خود را فراموش کرده اید.',
 );

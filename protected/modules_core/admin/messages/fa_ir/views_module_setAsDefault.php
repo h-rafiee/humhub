@@ -5,8 +5,8 @@ return array (
   'Always activated' => 'فعال‌سازی دائمی',
   'Close' => 'بستن',
   'Deactivated' => 'غیرفعال‌شد',
-  'Here you can choose whether or not a module should be automatically activated on a space or user profile. If the module should be activated, choose "always activated".' => 'اینجا می‌توانید انتخاب کنید که آیا لازم است یک ماژول به صورت خودکار در یک انجمن یا پروفایل فعال شود یا خیر. اگر لازم است ماژول فعال شود گزینه‌ی فعال‌سازی دائمی را انتخاب کنید.',
+  'Here you can choose whether or not a module should be automatically activated on a space or user profile. If the module should be activated, choose "always activated".' => 'اینجا می‌توانید انتخاب کنید که آیا لازم است یک ماژول به صورت خودکار در یک گروه یا پروفایل فعال شود یا خیر. اگر لازم است ماژول فعال شود گزینه‌ی فعال‌سازی دائمی را انتخاب کنید.',
   'Save' => 'ذخیره',
-  'Spaces' => 'انجمن‌ها',
+  'Spaces' => 'گروه‌ها',
   'User Profiles' => 'پروفایل‌های کاربران',
 );

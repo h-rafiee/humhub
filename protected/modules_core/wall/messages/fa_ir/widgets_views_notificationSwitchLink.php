@@ -17,6 +17,6 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Turn off notifications' => '',
-  'Turn on notifications' => '',
+  'Turn off notifications' => 'غیر فعال کردن اعلانها',
+  'Turn on notifications' => 'فعال کردن اعلانها',
 );

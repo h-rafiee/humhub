@@ -18,7 +18,7 @@
         ));
         ?>
 
-        <p class="help-block">Fields with <span class="required">*</span> are required.</p><br>
+        <p class="help-block">پر کردن فیلدهایی که * دارند الزامی است.</p><br>
 
         <?php echo $form->errorSummary($model); ?>
         <div class="form-group">

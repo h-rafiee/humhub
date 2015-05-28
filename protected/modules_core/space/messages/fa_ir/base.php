@@ -1,11 +1,11 @@
 <?php
 return array (
-  'Public (Members & Guests)' => '',
-  'Public (Members only)' => '',
-  'Public (Registered users only)' => '',
-  'Visible for all (members and guests)' => '',
+  'Public (Members & Guests)' => 'عمومی (اعضا و مهمان ها)',
+  'Public (Members only)' => 'عمومی (فقط اعضا)',
+  'Public (Registered users only)' => 'عمومی (فقط اعضای ثبت نام کرده)',
+  'Visible for all (members and guests)' => 'نمایش فرای همه (اعضا و مهمان ها)',
   ' Invite and request' => 'دعوت و درخواست',
-  'Could not delete user who is a space owner! Name of Space: {spaceName}' => 'امکان حذف کاربری که دارنده‌ی انجمن است وجود ندارد! نام انجمن: {spaceName}',
+  'Could not delete user who is a space owner! Name of Space: {spaceName}' => 'امکان حذف کاربری که دارنده‌ی گروه است وجود ندارد! نام گروه: {spaceName}',
   'Everyone can enter' => 'همه می‌توانند وارد شوند',
   'Invite and request' => 'دعوت و درخواست',
   'Only by invite' => 'فقط با دعوت',

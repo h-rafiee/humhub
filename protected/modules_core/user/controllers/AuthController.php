@@ -124,8 +124,9 @@ class AuthController extends Controller
                 }
             }
         }
-
+        Yii::app()->setLanguage('fa_ir');
         if (Yii::app()->request->isAjaxRequest) {
+            
             $this->renderPartial('login_modal', array('model' => $model, 'registerModel' => $registerModel, 'canRegister' => $canRegister), false, true);
         } else {
             $this->render('login', array('model' => $model, 'registerModel' => $registerModel, 'canRegister' => $canRegister));
@@ -139,7 +140,7 @@ class AuthController extends Controller
     public function actionRecoverPassword()
     {
         $model = new AccountRecoverPasswordForm;
-
+        Yii::app()->setLanguage('fa_ir');
         if (isset($_POST['AccountRecoverPasswordForm'])) {
             $model->attributes = $_POST['AccountRecoverPasswordForm'];
 
@@ -149,7 +150,7 @@ class AuthController extends Controller
                 Yii::app()->getController()->createAction('captcha')->getVerifyCode(true);
 
                 $model->recoverPassword();
-
+                
                 if (Yii::app()->request->isAjaxRequest) {
                     $this->renderPartial('recoverPassword_modal_success', array('model' => $model), false, true);
                 } else {
@@ -181,7 +182,7 @@ class AuthController extends Controller
         if ($user === null || !$this->checkPasswordResetToken($user, Yii::app()->request->getQuery('token'))) {
             throw new CHttpException('500', 'It looks like you clicked on an invalid password reset link. Please try again.');
         }
-
+        Yii::app()->setLanguage('fa_ir');
         $model = new UserPassword('newPassword');
 
         if (isset($_POST['UserPassword'])) {

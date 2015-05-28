@@ -244,7 +244,6 @@ class Controller extends EController
         $isGuest = (!Yii::app()->params['installed'] || Yii::app()->user->isGuest);
 
         if ($isGuest) {
-
             // Choose Language Form Submitted?
             if (isset($_POST['ChooseLanguageForm'])) {
                 $languageModel = new ChooseLanguageForm();

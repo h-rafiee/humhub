@@ -17,7 +17,7 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Password</strong> recovery!' => '',
-  'We’ve sent you an email containing a link that will allow you to reset your password.' => '',
-  'back to home' => '',
+  '<strong>Password</strong> recovery!' => 'بازیابی <strong>پسورد</strong>',
+  'We’ve sent you an email containing a link that will allow you to reset your password.' => 'برای شما ایمیلی حاوی لینک نوسازی پسورد ارسال خواهد شد.',
+  'back to home' => 'بازگشت به صفحه اصلی',
 );

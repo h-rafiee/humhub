@@ -18,8 +18,8 @@
  */
 return array (
   '<br>A social network to increase your communication and teamwork.<br>Register now
-                                                        to join this space.' => '',
-  'Space Invite' => '',
-  'You got a <strong>space</strong> invite' => '',
-  'invited you to the space:' => '',
+                                                        to join this space.' => '<br>جامعه مجازی ارتباطات شما را بهبود بخشید.<br>برای پیوستن به گروه ثبت نام کنید.',
+  'Space Invite' => 'دعوت گروه',
+  'You got a <strong>space</strong> invite' => 'شما به <strong>گروه</strong> دعوت شده اید',
+  'invited you to the space:' => 'دعت شده اید به گروه :',
 );

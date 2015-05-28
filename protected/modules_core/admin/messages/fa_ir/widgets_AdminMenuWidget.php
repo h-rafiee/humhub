@@ -17,7 +17,7 @@ return array (
   'Security & Roles' => 'امنیت و نقش‌ها',
   'Self test & update' => 'خودآزمایی و به‌روزرسانی ',
   'Settings' => 'تنطیمات',
-  'Spaces' => 'انجمن‌ها',
+  'Spaces' => 'گروه‌ها',
   'Statistics' => 'آمار',
   'User approval' => 'تاییدیه‌ی کاربر',
   'User profiles' => 'پروفایل‌های کاربران',
